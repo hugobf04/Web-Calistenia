@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Hugo" />
+        <meta name="description" content="La meua pàgina web" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <title>Contacto</title>
+
+        <link rel="stylesheet" href="Style Menu.css">
+		<link rel="stylesheet" href="Formulario.css">
+		<link rel="stylesheet" href="abajo.css">
+		<link rel="stylesheet" href="Desgradado.css">
+</head>
+<body>
+
+    <nav>
+		<ul class="menu-horizontal">
+            <li><a href="Calistenia (Inicio).html">Inicio</a></li>
+			<li><a href="Calistenia (Que es).html">Información</a></li>
+            <li><a href="Calistenia (Beneficios).html">Beneficios</a></li>
+			<li>
+				<a href="#">Trucos</a>
+				<ul class="menu-vertical">
+					<li><a href="Calistenia (Trucos Principiantes).html">Principiante</a></li>
+					<li><a href="Calistenia (Trucos Intermedios).html">Intermedio</a></li>
+					<li><a href="Calistenia (Trucos Avanzado).html">Avanzado</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Rutinas</a>
+				<ul class="menu-vertical">
+					<li><a href="Calistenia (Rutinas Principiantes).html">Principiante</a></li>
+					<li><a href="Calistenia (Rutinas Intermedios).html">Intermedio</a></li>
+					<li><a href="Calistenia (Rutinas Avanzadas).html">Avanzado</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Ayuda</a>
+				<ul class="menu-vertical">
+					<li><a href="Calistenia (Contacto).html">Contacto</a></li>
+					<li><a href="Calistenia (Quien soy).html">Quien soy</a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+
+	<br>
+	<br>
+
+	<center><h1>Contacto</h1></center>
+	
+	<br>
+
+	<center>
+		<p>Si necesitas ayuda rellena el siguiente formulario para poder ayudarte</p>
+	</center>
+
+	<br>
+
+	<form action="" class="formulario">
+		<img src="https://i.pinimg.com/originals/cf/a1/6d/cfa16d0e22883e1c88ee2509d8ce1eb2.png" class="imgLogo" />
+  
+		<h1 class="formulario__titulo">Calistenia</h1>
+		<h3 class="formulario__subtitulo">Formulario de ayuda</h3>
+		<p class="formulario__parrafo">Llena este pequeño formulario para poder preguntarme cualquier duda sobre la calistenia.</p>
+
+		<br>
+  
+		<label for="cliente" class="formulario__label">¿Cuál es tu nombre?</label>
+		<input
+		  id="cliente"
+		  type="text"
+		  class="formulario__input"
+		  placeholder="Indica cuál es tu nombre"
+		/>
+
+  
+		<label for="cliente" class="formulario__label">¿Cuáles son tus apellidos?</label>
+		<input
+		  id="cliente"
+		  type="text"
+		  class="formulario__input"
+		  placeholder="Indica cuáles son tus apellidos"
+		/>
+
+		<label for="email" class="formulario__label">¿Cuál es tu gmail?</label>
+		<input
+		  id="email"
+		  type="email"
+		  class="formulario__input"
+		  placeholder="Indica cuál es tu gmail"
+		/>
+
+  
+		<label for="fecha" class="formulario__label">Indica tu fecha de nacimiento</label>
+      	<input
+          id="fecha"
+          type="date"
+          class="formulario__input"
+          pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      	/>
+
+		<label for="text" class="formulario_label">Indica tu duda</label>
+		<input
+		  id=""
+		  type="text"
+		  class="formulario__input"
+		  placeholder="Indica cual es la duda que tienes"
+		/>
+
+  
+		<div id="respuesta"></div>
+
+		<button id="reset" class="formulario__reset">Restaurar formulario</button>
+
+		<br>
+  
+		<button id="submit" class="formulario__submit">Enviar</button>
+	  </form>
+
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+    
+</body>
+
+<footer id="main-footer">
+	<p>Todo sobre la Calistenia</p>
+	<br>
+	<p>Si quieres saber mas siguenos en nuestras redes</p>
+</footer>
+
+</html>

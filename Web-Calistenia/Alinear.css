@@ -1,0 +1,23 @@
+#foto{
+    max-width: 55%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: block;
+margin: auto;
+}
+#foto2{
+    max-width: 55%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: block;
+margin: auto;
+}
+.contenedor-imagenes {
+    display: flex;
+  }
+  
+  .contenedor-imagenes img:first-child {
+    margin-right: 10px;
+  }
